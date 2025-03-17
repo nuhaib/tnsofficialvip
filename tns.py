@@ -58,7 +58,7 @@ async def send_message(channel_id, text, media, entities, buttons):
         )
 
         # Custom message with the premium emoji
-        custom_message =  "REGISTER HERE :-http://in-rkwg.com/#/register?invitationCode=4G19522240 ⚡️"
+        custom_message =  " REGISTER HERE :-http://in-rkwg.com/#/register?invitationCode=4G19522240"
         premium_entities = [MessageEntityCustomEmoji(offset=0, length=1, document_id=premium_emoji_id)]
 
         # Send the follow-up message with the premium emoji
